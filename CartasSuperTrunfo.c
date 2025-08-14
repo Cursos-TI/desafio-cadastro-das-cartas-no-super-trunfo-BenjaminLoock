@@ -7,6 +7,8 @@
 //Teste larissa
 
 int main() {
+    char estado[10];
+    char cidade [20];
     int População;
     float Área;
     float PIB;
