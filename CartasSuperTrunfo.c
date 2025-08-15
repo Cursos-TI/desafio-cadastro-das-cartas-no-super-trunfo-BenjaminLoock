@@ -2,8 +2,8 @@
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
-// Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // ALUNO: ANDRE SILVA DOS SANTOS
+// creio eu que fiz certo kk...
 
     int carta1, População1, PontosTurísticos1;        
     char Estado1[20], Cidade1[20];
