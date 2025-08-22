@@ -8,10 +8,14 @@
     int carta1, Populacao1, PontosTuristicos1;        
     char Estado1[20], Cidade1[20];
     float Area1, PIB1;
+    float DensidadePopulacional1;
+    float PIBPerCapita1;
 
     int carta2, Populacao2, PontosTuristicos2; 
     char Estado2[20], Cidade2[20];
     float Area2, PIB2;
+    float DensidadePopulacional2;
+    float PIBPerCapita2;
 
 int main() {
 
@@ -38,6 +42,9 @@ int main() {
     printf("Pontos Turísticos: \n");
     scanf("%d", &PontosTuristicos1);
     
+    
+    DensidadePopulacional1 = (Populacao1 / Area1); //NO DESAFIO AVENTUREIRO FOI ADICIONADO ESSAS INFORMAÇÕES
+    PIBPerCapita1 = (PIB1 / Populacao1);
 
     //Carta002
     printf("Cadastro da Carta 2! \n");
@@ -62,6 +69,9 @@ int main() {
     printf("Pontos Turísticos: \n");
     scanf("%d", &PontosTuristicos2);
 
+    DensidadePopulacional2 = (Populacao2 / Area2); //NO DESAFIO AVENTUREIRO FOI ADICIONADO ESSAS INFORMAÇÕES
+    PIBPerCapita2 = (PIB2 / Populacao2);
+
 
     //Exibindo resultados
     printf("\n=============================================\n"); //pesquisei formas de deixar mais "apresentavel".
@@ -74,6 +84,8 @@ int main() {
     printf("Área: %2f km²\n", Area1);
     printf("PIB: %2f bilhões\n", PIB1);
     printf("Pontos Turísticos: %d\n", PontosTuristicos1);
+    printf("Densidade Populacional: %f\n", DensidadePopulacional1); //NO DESAFIO AVENTUREIRO FOI ADICIONADO ESSAS INFORMAÇÕES
+    printf("PIBPerCapita: %f\n", PIBPerCapita1);
 
     printf("\n=============================================\n");
     printf("                   CARTA 2\n");
@@ -85,6 +97,9 @@ int main() {
     printf("Área: %2f km²\n", Area2);
     printf("PIB: %2f bilhões\n", PIB2);
     printf("Pontos Turísticos: %d\n", PontosTuristicos2);
+    printf("Densidade Populacional: %f\n", DensidadePopulacional2); //NO DESAFIO AVENTUREIRO FOI ADICIONADO ESSAS INFORMAÇÕES
+    printf("PIBPerCapita: %f\n", PIBPerCapita2);
+
 
     
     
